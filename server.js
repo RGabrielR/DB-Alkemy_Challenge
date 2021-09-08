@@ -20,4 +20,4 @@ app.get("/:endpoint([\\/\\w\\.-]*)", (req, res, next) => {
   
 });
 
-app.listen(port, () => console.log(`http://localhost:${port}`));
+app.listen(port);
